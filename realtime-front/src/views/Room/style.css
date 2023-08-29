@@ -1,0 +1,143 @@
+#room {
+  width: 100vw;
+  height: 100vh;
+}
+
+.room-header {
+  padding: 0 5vw;
+  height: 10vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.room-number {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.room-back-button {
+  color: rgba(150, 0, 0, 0.5);
+  font-sizE: 12px;
+}
+
+.room-back-button:hover {
+  cursor: pointer;
+  color: rgba(150, 0, 0, 0.7);
+  font-weight: 600;
+}
+
+.room-container {
+  padding: 1vh;
+  height: 78vh;
+  overflow-y: scroll;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.room-footer {
+  padding: 0 20px;
+  height: 10vh;
+  
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.room-send-input {
+  flex: 1;
+  height: 4vh;
+
+  border: none;
+  outline: none;
+}
+
+.room-send-button {
+  width: 80px;
+  height: 4vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.8);
+
+  color: rgba(255, 255, 255, 1);
+}
+
+.room-send-button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.message-box-mine {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.message-mine {
+  border-radius: 4px;
+  padding: 8px;
+
+  max-width: 30vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  background-color: rgba(200, 215, 0, 0.7);
+
+  font-weight: 500;
+}
+
+.message-datetime {
+  margin: 0 4px;
+  display: flex;
+  flex-direction: column-reverse;
+
+  font-size: 12px;
+}
+
+.message-box-others {
+  display: flex;
+}
+
+.message-box-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.message-nickname {
+  color:rgba(0, 0, 0, 0.6);
+  
+  font-size: 14px;
+}
+
+.message-containter-others {
+  display: flex;
+}
+
+.message-other {
+  border-radius: 4px;
+  padding: 8px;
+
+  max-width: 30vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  background-color: rgba(0, 0, 0, 0.4);
+
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
